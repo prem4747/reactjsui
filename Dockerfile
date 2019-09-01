@@ -1,6 +1,6 @@
 FROM node:10
 
-COPY . /usr/src
+COPY . /usr
 
 WORKDIR /usr/src
 
