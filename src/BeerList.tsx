@@ -30,7 +30,7 @@ class BeerList extends React.Component<BeerListProps, BeerListState> {
 
     fetch('http://restapi:8080/good-beers')
       .then(response => response.json())
-      .then(data => this.setState({beers: data, isLoading: false}));
+      .then(data => this.setState({beers: data, isLoading: true}));
   }
 
   render() {
